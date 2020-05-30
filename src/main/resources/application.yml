@@ -1,0 +1,19 @@
+server:
+  port: 8443 
+  servlet:
+    context-path: /practise
+ 
+spring:
+  thymeleaf:
+    mode: html
+    servlet:
+      content-type: text/html 
+    prefix: classpath:/views/
+    suffix: .html
+    encoding: utf-8
+    cache: false
+  
+  mvc:
+    static-path-pattern: /**
+  resources:
+    static-locations: classpath:/static

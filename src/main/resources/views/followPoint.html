@@ -1,0 +1,39 @@
+<!--
+         wangedtor富文本框中，光标位置插入列表
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>wangedtor富文本框中，光标位置插入dom</title>
+<link rel="stylesheet" href="/practise/css/common.css">
+<style type="text/css">
+.issue-list{
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    background-color: #fff;
+    border: solid 1px;
+    padding: 10px;
+    z-index: 2000000;
+}
+</style>
+</head>
+<body>
+     <h2 align="center">wangedtor富文本框中，光标位置插入dom</h2>
+     <hr color="red" />
+     <div>
+         <div class="new-editor" id="new-editor"></div>
+     </div>
+     <!-- 插入富文本光标处的dom节点  -->
+     <ul class="issue-list">
+         <li>无敌是多么寂寞？</li> 
+         <li>什么是万恶之源？</li> 
+         <li>钢铁是怎么练成的？</li>
+         <li>珠穆朗玛峰有多高？</li>
+     </ul>
+</body>
+<script src="/practise/js/require.js" data-main="followPoint"></script>
+<script src="/practise/js/config/requireConfig.js"></script>
+</html>
