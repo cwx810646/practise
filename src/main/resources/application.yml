@@ -1,7 +1,7 @@
 server:
   port: 8443 
   servlet:
-    context-path: /practise
+    context-path: /
  
 spring:
   thymeleaf:
@@ -17,3 +17,9 @@ spring:
     static-path-pattern: /**
   resources:
     static-locations: classpath:/static
+  profiles:
+    active: test
+
+logging:
+  config: classpath:logback-spring.xml
+  #path: classpath:log/practis.txt

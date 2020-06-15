@@ -20,4 +20,10 @@ public class PageController {
 	   ModelAndView mv = new ModelAndView("followPoint");
 	   return mv;
     }
+	
+	@RequestMapping("goldenLayout")
+	public Object goldenLayout() {
+	   ModelAndView mv = new ModelAndView("goldenLayout");
+	   return mv;
+    }
 }
