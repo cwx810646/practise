@@ -1,9 +1,6 @@
 package com.huawei.entity;
 
-import java.util.HashMap;
-
-public class Result<T> extends HashMap<String, Object> {
-	private static final long serialVersionUID = 1L;
+public class Result<T> {
 
 	private static final Integer SUC_CODE = 200;
 

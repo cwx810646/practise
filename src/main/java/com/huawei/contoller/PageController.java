@@ -1,9 +1,9 @@
 package com.huawei.contoller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
-
 
 @Controller
 @RequestMapping("page")

@@ -7,4 +7,6 @@ define(['jquery'], function ($){
 	for(var i = 0; i < size; i++){
 		console.log(lis[i].innerHTML);
 	}
+	
+
 })

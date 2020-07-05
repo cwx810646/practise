@@ -1,0 +1,14 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chenjie",
+  "license": "ISC",
+  "dependencies": {
+    "golden-layout": "^1.5.9"
+  }
+}
